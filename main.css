@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 3.5rem;
+}
+
+nav{
+    display: flex;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+
+}
+#Amazon_logo{
+    height: 80px;
+
+    padding: 0px  ;
+}
+#deliver_to{
+    margin: 0px;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+#address{
+    font-size: 0.9rem;
+    margin-left:50px ;
+}
