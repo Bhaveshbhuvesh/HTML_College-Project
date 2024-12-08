@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 3.5rem;
 }
 
 nav {
@@ -10,84 +9,88 @@ nav {
     color: white;
     justify-content: space-between;
     align-items: center;
-    height: 4.5rem;
-
+    height: 4.6rem;
+    padding: 0 20px; 
 }
 
 #Amazon_logo {
-    height: 80px;
-
-    padding: 0px;
+    height: 50px; 
+    margin-right: 20px;
 }
 
 #deliver_to {
-    margin: 0px;
+    margin: 0;
     font-size: 1.1rem;
-    margin-top: 0.5rem;
 }
 
 #address {
     font-size: 0.9rem;
-    margin-left: 50px;
+    margin-left: 5px; 
 }
 
 #searchnav {
     display: flex;
-    justify-content: center;
+    flex-grow: 1; 
+    margin: 0 20px; 
     align-items: center;
 }
 
 #searchbar {
-    padding: 10px 170px;
+    width: 100%; 
+    padding: 10px;
     border: transparent;
-    border-radius: 10px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     text-align: left;
+    box-sizing: border-box; 
 }
 
 #searchbutton {
-    padding: 0.6rem;
-    border: transparent;
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    background-color: #e8b527;
-}
-
-#search {
-    padding: 0px 50px 0 px 50px;
-}
-
-#countryflag {
-    height: 30px;
-    padding-right: 5px;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #febd69; 
+    cursor: pointer;
 }
 
 #country {
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 1rem;
+    margin-left: 20px;
+}
+
+#countryflag {
+    height: 20px;
+    margin-right: 5px;
+}
+
+#ret_ord {
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+#ord {
+    padding-left: 5px;
+}
+
+#cart {
+    font-size: 1.5rem;
+    margin-left: 20px;
 }
 
 #loginprofile {
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 1rem;
+    margin-left: 20px;
 }
 
 #profilepic {
-    height: 45px;
-    padding-right: 5.5px;
-}
-#ret_ord{
-    font-size: 1rem;
-}
-#ord{
-    padding-left: 12px;
-}
-#cart{
-    font-size: 2rem;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
 }
