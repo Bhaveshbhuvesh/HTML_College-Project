@@ -4,26 +4,68 @@ body {
     font-size: 3.5rem;
 }
 
-nav{
+nav {
     display: flex;
     background-color: #0f1111;
     color: white;
     justify-content: space-evenly;
     align-items: center;
-    height: 5rem;
+    height: 4rem;
 
 }
-#Amazon_logo{
+
+#Amazon_logo {
     height: 80px;
 
-    padding: 0px  ;
+    padding: 0px;
 }
-#deliver_to{
+
+#deliver_to {
     margin: 0px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 0.5rem;
 }
-#address{
+
+#address {
     font-size: 0.9rem;
-    margin-left:50px ;
+    margin-left: 50px;
+}
+
+#searchnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbar {
+    padding: 10.2px 60px;
+    border: transparent;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#searchbutton {
+    padding: 0.6rem;
+    border: transparent;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #e8b527;
+}
+
+#search {
+    padding: 0px 50px 0 px 50px;
+}
+
+#countryflag {
+    height: 30px;
+    padding-right: 5px;
+}
+
+#country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
 }
