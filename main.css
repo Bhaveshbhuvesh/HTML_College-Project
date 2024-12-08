@@ -123,3 +123,16 @@ nav {
 .amazon_offer{
     padding: 10px;
 }
+
+#herosec{
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+justify-items: center;
+background-color: rgba(165, 186, 186, 0.902);
+}
+#lrarrow{
+   font-size: 30px;
+   padding: 20px;
+}
