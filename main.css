@@ -2,19 +2,18 @@ body {
     margin: 0;
     padding: 0;
 }
-
 nav {
     display: flex;
     background-color: #0f1111;
     color: white;
     justify-content: space-between;
     align-items: center;
-    height: 4.6rem;
-    padding: 0 20px; 
+    height: 4.5rem;
+    padding: 0 20px;
 }
 
 #Amazon_logo {
-    height: 50px; 
+    height: 50px;
     margin-right: 20px;
 }
 
@@ -25,34 +24,35 @@ nav {
 
 #address {
     font-size: 0.9rem;
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 #searchnav {
     display: flex;
-    flex-grow: 1; 
-    margin: 0 20px; 
+    flex-grow: 1;
+    margin: 0 20px;
     align-items: center;
 }
 
 #searchbar {
-    width: 100%; 
+
+    width: 100%;
     padding: 10px;
     border: transparent;
     border-radius: 0;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     text-align: left;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 #searchbutton {
-    padding: 10px 20px; 
+    padding: 10px 20px;
     border: none;
     border-radius: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #febd69; 
+    background-color: #febd69;
     cursor: pointer;
 }
 
@@ -93,4 +93,33 @@ nav {
     height: 30px;
     border-radius: 50%;
     margin-right: 5px;
+}
+
+#sub_bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #0f1111f1;
+    color: white;
+}
+
+#allprods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+#hero_section {
+    height: 500px;
+    object-fit: cover;
+}
+#menubar{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.amazon_offer{
+    padding: 10px;
 }
