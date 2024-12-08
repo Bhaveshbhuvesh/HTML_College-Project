@@ -8,9 +8,9 @@ nav {
     display: flex;
     background-color: #0f1111;
     color: white;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 4rem;
+    height: 4.5rem;
 
 }
 
@@ -38,11 +38,12 @@ nav {
 }
 
 #searchbar {
-    padding: 10.2px 60px;
+    padding: 10px 170px;
     border: transparent;
     border-radius: 10px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    text-align: left;
 }
 
 #searchbutton {
@@ -86,4 +87,7 @@ nav {
 }
 #ord{
     padding-left: 12px;
+}
+#cart{
+    font-size: 2rem;
 }
