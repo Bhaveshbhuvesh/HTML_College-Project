@@ -69,3 +69,21 @@ nav {
     align-items: center;
     font-size: 1rem;
 }
+
+#loginprofile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#profilepic {
+    height: 45px;
+    padding-right: 5.5px;
+}
+#ret_ord{
+    font-size: 1rem;
+}
+#ord{
+    padding-left: 12px;
+}
