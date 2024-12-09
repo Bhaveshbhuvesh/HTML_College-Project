@@ -181,7 +181,9 @@ ol li {
     border: 1px transparent;
     border-radius: 28px;
     margin: 11.78px;
+    margin-top: 15px;
     margin-bottom: 15px;
+    padding-bottom: 20px;
     background-color: rgb(203, 212, 212);
 }
 
@@ -190,7 +192,10 @@ ol li {
     width: 500px;
 }
 
-#cloths {}
+#cloths {
+    height: 420px;
+    width: 500px;
+}
 
 #dogfood {
     height: 420px;
@@ -261,6 +266,18 @@ ol li {
 .prodname {
     text-align: center;
     margin-right: 95px;
+    margin-bottom: 10px;
     font-size: 1.59rem;
     font-weight: 540;
+}
+.addtocart{
+background-color:  #f5a741; 
+padding: 10px;
+border: transparent;
+border-radius: 20px;
+}
+
+.prodprice{
+    padding: 10px;
+    
 }
