@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgba(165, 186, 186, 0.902);
 }
+
 nav {
     display: flex;
     background-color: #0f1111;
@@ -116,23 +118,149 @@ nav {
     height: 500px;
     object-fit: cover;
 }
-#menubar{
+
+#menubar {
     padding-right: 5px;
     padding-left: 5px;
 }
-.amazon_offer{
+
+.amazon_offer {
     padding: 10px;
 }
 
-#herosec{
-display: flex;
-justify-content: center;
-align-items: center;
-align-content: center;
-justify-items: center;
-background-color: rgba(165, 186, 186, 0.902);
+#herosec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    background-color: rgba(165, 186, 186, 0.902);
+    position: relative;
+    z-index: -10;
+    padding-top: 5px;
 }
-#lrarrow{
-   font-size: 30px;
-   padding: 20px;
+
+#lrarrow {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.prodpanel {
+    position: absolute;
+    top: 38%;
+
+}
+
+#prodimg1 {
+    height: 300px;
+    padding-right: 650px;
+
+}
+
+#prodimg2 {
+    height: 295px;
+    width: 25%;
+    padding-left: 595px;
+    top: 39%;
+}
+
+ol li {
+    list-style-type: none;
+}
+
+.itemsprod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.productitems {
+    border: 1px transparent;
+    border-radius: 28px;
+    margin: 11.78px;
+    margin-bottom: 15px;
+    background-color: rgb(203, 212, 212);
+}
+
+#fashion {
+    height: 420px;
+    width: 500px;
+}
+
+#cloths {}
+
+#dogfood {
+    height: 420px;
+    width: 500px;
+}
+
+#toys {
+    height: 420px;
+    width: 500px;
+}
+
+#laptop {
+    height: 420px;
+    width: 500px;
+}
+
+#skincare {
+    height: 420px;
+    width: 500px;
+}
+
+#fashionimg {
+    height: 340px;
+    width: 450px;
+    padding-top: 8px;
+    border-radius: 25px;
+}
+
+#clothsimg {
+    height: 340px;
+    width: 450px;
+    padding-top: 8px;
+    border-radius: 25px;
+}
+
+#dogfoodimg {
+    height: 340px;
+    width: 450px;
+    padding-top: 8px;
+    border-radius: 25px;
+}
+
+#toysimg {
+    height: 341px;
+    width: 450px;
+    padding-top: 8px;
+    border-radius: 25px;
+}
+
+#laptopimg {
+    height: 341px;
+    width: 450px;
+    padding-top: 8px;
+    border-radius: 25px;
+}
+
+#skincareimg {
+    height: 341px;
+    width: 450px;
+    padding-top: 8px;
+    border-radius: 25px;
+}
+
+.proddetail {
+    display: flex;
+}
+
+.prodname {
+    text-align: center;
+    margin-right: 95px;
+    font-size: 1.59rem;
+    font-weight: 540;
 }
